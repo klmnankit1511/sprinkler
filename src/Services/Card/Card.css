@@ -1,0 +1,43 @@
+.Services{
+
+}
+.Services__Card{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px grey;
+
+}
+.Services__Card__title,.Services__Card__btn{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Services__Card__title{
+    font-size: 30px;
+    /* background-color: blue; */
+}
+.Services__Card__btn{
+    align-items: end;
+    padding: 10px;
+    
+
+}
+.Services__Card__btn button{
+    width: 90%;
+    padding: 10px 2px;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #4285F4;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
