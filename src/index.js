@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import Contact from './Contact/Contact';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Services from './Services/Services';
+// import Services from './Services/Services';
+import Sport from './Sport/Sport';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Services />
+    {/* <Contact /> */}
+    {/* <Services /> */}
+    <Sport />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
